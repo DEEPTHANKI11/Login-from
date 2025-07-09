@@ -1,0 +1,39 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #0260ee;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container, .profile-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(226, 3, 3);
+}
+
